@@ -250,3 +250,75 @@ Ensure the following fields are uniquely identified:
 
 ---
 
+## 7. Supported Field Mapping
+
+> ⚠️ **READ CAREFULLY: The sections below are informational only. You do NOT need to configure or input anything.**
+> These lists are provided **just to show you** what fields the integration currently supports. If a field exists in your app **with the same name**, it will be synced. If it doesn’t, it will be skipped.
+
+---
+
+### Patient Fields (Synced if app field matches the name exactly)
+
+* Dr Chrono ID
+* Chart ID
+* First Name
+* Middle Name
+* Last Name
+* Date of Birth
+* Sex
+* Patient SSN
+* Language
+* Status
+* Home Phone
+* Cell Phone
+* Email
+* Emergency Contact Name
+* Emergency Contact Phone
+* Emergency Contact Relation
+* Disable SMS/Txt
+* Primary Provider (Employee)
+* Patient Flags
+* Patient Flags and Descriptions
+* Date of Last Appointment
+* Insurance Company
+* Insurance ID Number
+* Insurance Group Number
+* Secondary Insurance
+* Secondary Insurance ID Number
+* Secondary Insurance Group Number
+* Responsible Party Name
+* Responsible Party Relation
+* Responsible Party Email
+* Responsible Party Phone
+* Address
+
+---
+
+### Appointment Fields (Synced if app field matches the name exactly)
+
+* Patient
+* Provider
+* Appt Profile
+* Appt Status
+* Date of Service
+* Reason
+* Duration
+* Claim ID
+
+---
+
+### Employee Fields (Synced if app field matches the name exactly)
+
+* First Name
+* Last Name
+* Work Phone
+* Personal Phone
+* Chrono Doctor ID
+* NPI
+* Work Email
+
+---
+
+> ✅ **Reminder:** These fields are not settings. You do not need to copy or enter them anywhere. Just make sure your app has fields with the same names if you want them to sync.
+
+
