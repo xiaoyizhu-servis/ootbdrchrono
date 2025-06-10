@@ -215,7 +215,7 @@ Go to:
 
 * **Patient Stage**
   Set `Unique Value` to `A/I/D`
-  Update values as follows:
+  Update as follows:
 
   | Value               | Unique Value |
   | ------------------- | ------------ |
@@ -224,11 +224,13 @@ Go to:
   | Inactive - Deceased | D            |
 
 * **Language**
-  Add the following option:
+  Update as follows:
 
   | Value | Unique Value |
-  | ----- | ------------ |
-  | Blank | blank        |
+  | ------- | ------------ |
+  | English | eng        |
+  | Spanish | spa        |
+  | Blank   | blank        |
 
 ### Appointment App
 
