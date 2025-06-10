@@ -242,7 +242,7 @@ Go to:
 
 ## 6. Reset Unique Fields
 
-Ensure the following fields are uniquely identified:
+Remoe all existing unique fields then add below:
 
 | Entity      | Field            |
 | ----------- | ---------------- |
