@@ -17,7 +17,17 @@ Fill in the following fields:
   `https://freeagent.network/integration-oauth/callback`
 
 * **Callback URL**
-  `https://freeagent.network/drchronowebhook/6c61e96d-214b-4bbd-a0c2-8ff5ff2e5e41{tenant_team_id}`
+Use the following URL format, but replace the UUID at the end with your **current `team_id`**:
+
+```
+https://freeagent.network/drchronowebhook/{team_id}
+```
+
+**Example:**
+
+```
+https://freeagent.network/drchronowebhook/6c61e96d-214b-4bbd-a0c2-8ff5ff2e5e41
+```
 
 * **Secret Token**
   `servis`
