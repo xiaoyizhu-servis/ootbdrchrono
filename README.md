@@ -252,7 +252,10 @@ Go to:
 
 ## 6. Reset Unique Fields
 
-Remoe all existing unique fields then add below:
+Remove all existing unique fields then add below:
+
+**These fields are critical and must exist in each respective app with the exact names as shown below:**
+
 
 | Entity      | Field            |
 | ----------- | ---------------- |
