@@ -178,6 +178,22 @@ Navigate to: **SETTINGS → INTEGRATIONS → Integrations → Add Integration**
   }(inputs, context));
   ```
 
+* **Configuration**  --Optional
+  You may optionally include configuration flags to customize integration behavior:
+
+  ```json
+  {
+    "skipUpsertPatient": true,
+    "skipApptWithoutPatient": true
+  }
+  ```
+      
+  * `skipUpsertPatient`:
+    Set to `true` to **skip creating new patients** in Servis in the `PATIENT_MODIFY` notification if they don’t already exist.
+  
+  * `skipApptWithoutPatient`:
+    Set to `true` to **only create appointments** for patients that already exist in Servis.
+
 ### Final Steps
 
 * Click `Authorize` under the new `OOTB DrChrono Integration`
@@ -242,11 +258,16 @@ Go to:
   | Spanish | spa        |
   | Blank   | blank        |
 
+* **Patient Flags**
+
+  > Might vary across customers. Ask a dev to fetch chrono otpions as needed.
+
+
 ### Appointment App
 
 * **Appointment Type**
 
-  > Might vary across customers. Ask a dev to update as needed.
+  > Might vary across customers. Ask a dev to fetch chrono otpions as needed.
 
 ---
 
