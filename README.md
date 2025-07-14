@@ -358,3 +358,25 @@ Remove all existing unique fields then add below:
 > ✅ **Reminder:** These fields are not settings. You do not need to copy or enter them anywhere. Just make sure your app has fields with the same names if you want them to sync.
 
 
+---
+
+## 8. Support for Custom Events & Data Push to DrChrono
+
+In addition to the out-of-the-box event types listed above—**`APPOINTMENT_CREATE`**, **`APPOINTMENT_DELETE`**, **`APPOINTMENT_MODIFY`**, **`PATIENT_CREATE`**, and **`PATIENT_MODIFY`**—**Servis.ai also supports the following advanced capabilities**:
+
+### ✅ Custom Webhook Event Support
+
+Servis.ai can handle **additional DrChrono webhook events** beyond the standard out-of-the-box ones.
+
+---
+> 🔧 **Need to capture other event types?**
+> We support custom webhook events based on your workflow needs. Please contact a dev to configure additional event handlers.
+
+---
+
+### 🔄 Data Push from Servis.ai to DrChrono
+
+The integration also supports **sending data from Servis.ai to DrChrono**.
+---
+> 📩 **To enable this bi-directional sync**, please reach out to a dev to implement the required data push logic.
+---
