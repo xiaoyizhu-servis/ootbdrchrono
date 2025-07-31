@@ -327,6 +327,7 @@ Remove all existing unique fields then add below:
 * Responsible Party Email
 * Responsible Party Phone
 * Address
+* Photo
 
 ---
 
